@@ -1,0 +1,9 @@
+.idea
+*.o
+euron
+*.c
+.txt
+cmake-build-debug
+Makefile
+*.h
+*.txt
