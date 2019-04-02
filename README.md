@@ -1,7 +1,5 @@
 # Zadanie 2
 
-Termin oddania: 01.04.2019, godz. 20.00
-
 Zaimplementuj w asemblerze x86_64 moduł symulujący działanie sieci euronowej.
 Sieć składa się z N euronów, które są numerowane od 0 do N − 1. Moduł będzie
 używany z języka C i ma udostępniać funkcję widzianą jako:
@@ -105,14 +103,3 @@ przetestowanie rozwiązania jest częścią zadania, choć nie wymagamy pokazywa
 tych testów. W szczególności na potrzeby testowania należy zaimplementować
 własne funkcję get_value i put_value, ale nie należy ich implementacji dołączać
 do rozwiązania.
-
-Rozwiązanie zostanie poddane testom automatycznym. Będziemy sprawdzać poprawność
-wykonywania obliczenia. Dokładnie będziemy też sprawdzać zgodność rozwiązania
-z wymaganiami ABI, czyli prawidłowość użycia rejestrów i stosu procesora.
-Oceniane będą poprawność i jakość tekstu źródłowego, w tym komentarzy, rozmiar
-kodu maszynowego oraz spełnienie formalnych wymagań podanych w treści zadania,
-np. poprawność nazwy pliku w repozytorium. Kod nieasemblujący się otrzyma 0
-punktów.
-
-Pytania do zadania można kierować na adres marpe@mimuw.edu.pl z [SOzad2]
-w temacie, a odpowiedzi na często zadawane pytania szukać w pliku faq.txt.
